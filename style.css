@@ -1,0 +1,26 @@
+h1,h2{
+    border-bottom: 6px solid color-mix(in srgb-linear, rgb(195, 228, 134) 70%, rgb(225, 240, 201) 30%);
+}
+
+@media (max-width: 1250px) {
+    h1,h2{
+        color: red;
+        font-size: larger;
+    }
+    .year{
+        display: none;
+    }
+    body{
+        font-size: larger;
+    }
+    .card-header{
+        font-size: larger;
+    }
+    li{
+        font-size: large;
+        text-align: left;
+    }
+    .b > i,p{
+        display: none;
+    }
+}
